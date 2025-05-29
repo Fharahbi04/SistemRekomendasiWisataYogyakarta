@@ -11,8 +11,8 @@ Kagle:[Sistem Rekomendasi Wisata Yogyakarta](https://www.kaggle.com/datasets/apr
 
 ### Fitur 
   - tourism_rating.csv:
-   | No. | Nama Fitur      | Tipe Data | Deskripsi                                                                 |
-   |-----|------------------|-----------|---------------------------------------------------------------------------|
+   | No. | Nama Fitur      | Tipe Data | Deskripsi|
+   |-----|-----------------|-----------|---------------------------------------|
    | 1   | User_Id          | Integer   | ID unik untuk setiap pengguna yang memberikan rating pada tempat wisata. |
    | 2   | Place_Id         | Integer   | ID unik untuk setiap tempat wisata yang dinilai oleh pengguna.           |
    | 3   | Place_Ratings    | Integer   | Nilai rating yang diberikan oleh pengguna terhadap tempat wisata.       |
