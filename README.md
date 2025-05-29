@@ -13,9 +13,9 @@ Kagle:[Sistem Rekomendasi Wisata Yogyakarta](https://www.kaggle.com/datasets/apr
   - tourism_rating.csv:
     | No. | Nama Fitur       | Tipe Data |Deskripsi                                                                 |
     |-----|------------------|-----------|---------------------------------------------------------------------------|
-    | 1   | `User_Id`        | Integer   | ID unik untuk setiap pengguna yang memberikan rating pada tempat wisata. |
-    | 2   | `Place_Id`       | Integer   | ID unik untuk setiap tempat wisata yang dinilai oleh pengguna.           |
-    | 3   | `Place_Ratings`  | Integer   | Nilai rating yang diberikan pengguna terhadap tempat wisata.             |
+    | 1   | User_Id        | Integer   | ID unik untuk setiap pengguna yang memberikan rating pada tempat wisata. |
+    | 2   | Place_Id       | Integer   | ID unik untuk setiap tempat wisata yang dinilai oleh pengguna.           |
+    | 3   | Place_Ratings  | Integer   | Nilai rating yang diberikan pengguna terhadap tempat wisata.             |
 
  - taourism_with_id:
    | No | Nama Kolom     | Tipe Data | Deskripsi                                                                 |
@@ -57,13 +57,13 @@ Kagle:[Sistem Rekomendasi Wisata Yogyakarta](https://www.kaggle.com/datasets/apr
 1. **Collaborative Filtering (Berbasis User/Item)**:
     - Berikut adalah 5 rekomendasi teratas untuk **User ID: 10** berdasarkan prediksi rating:
 
-        | Rank | Place ID | Predicted Rating |
-        |------|----------|------------------|
-        | 1    | 134      | 5.00             |
-        | 2    | 168      | 4.96             |
-        | 3    | 145      | 3.03             |
-        | 4    | 165      | 2.97             |
-        | 5    | 122      | 2.75             |
+        | Peringkat | Nama Tempat Wisata                              | ID Tempat | Predicted Rating |
+        |-----------|--------------------------------------------------|-----------|------------------|
+        | 1         | Desa Wisata Gamplong                            | 134       | 4.99             |
+        | 2         | Pantai Timang                                   | 168       | 4.98             |
+        | 3         | Desa Wisata Rumah Domes/Teletubbies             | 145       | 3.03             |
+        | 4         | Candi Donotirto                                 | 105       | 2.69             |
+        | 5         | Desa Wisata Kelor                               | 151       | 2.55             |
 
 
 2. **Content-Based Filtering**:
