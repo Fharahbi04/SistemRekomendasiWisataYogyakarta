@@ -1,5 +1,6 @@
 # SISTEM REKOMENDASI WISATA YOGYAKARTA
 Proyek ini bertujuan untuk membangun model sistem rekomendasi Wisata di Yogyakarta menggunakan model content-based-filtering dan collaborative filtering.
+<img width="639" height="165" alt="Rekomendasiyogya" src="https://github.com/user-attachments/assets/531dbaa9-28eb-45fe-b89b-c9dd9aecf1ae" />
 
 ## Sumber Dataset
 Kagle:[Sistem Rekomendasi Wisata Yogyakarta](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination/data)
